@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Yulian Esteban Londoño Cristancho</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #fdf6f0;
+        }
+
+        header {
+            background-color: #f47c3c;
+            padding: 20px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .cualidades {
+            margin-bottom: 40px;
+        }
+
+        .cualidades h2 {
+            color: #f47c3c;
+        }
+
+        .contenedor-hobbies {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .hobby {
+            background-color: #fff;
+            border: 2px solid #f47c3c;
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #f47c3c;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .redes {
+            margin: 15px 0;
+        }
+
+        .redes a {
+            margin: 0 10px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        form {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background-color: #f47c3c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #e66e2c;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Yulian Esteban Londoño Cristancho</div>
+        <nav>
+            <a href="#quien-soy">¿Quién soy?</a>
+            <a href="#expectativas">Expectativas y sueños</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cualidades" id="quien-soy">
+            <h2>OPTIMISTA - AMABLE</h2>
+            <p>Soy alguien enfocado en lo que de verdad le gusta con sueños y ambiciones y ganas de salir adelante.</p>
+        </section>
+
+        <section id="expectativas">
+            <h2>Expectativas y sueños</h2>
+            <p>Impresionar a mis padres, tener buena estabilidad económica y disfrutar la vida plenamente, además de poder tener grandes empresas.</p>
+        </section>
+
+        <section>
+            <h2>Intereses y Hobbies</h2>
+            <div class="contenedor-hobbies">
+                <div class="hobby">
+                    <h3>Escribir música</h3>
+                </div>
+                <div class="hobby">
+                    <h3>Jugar fútbol</h3>
+                </div>
+                <div class="hobby">
+                    <h3>Salidas con amigos</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Contáctame</h3>
+        <div class="redes">
+            <a href="https://facebook.com" target="_blank">Facebook: E'steban Londono</a><br>
+            <a href="https://instagram.com" target="_blank">Instagram: esteban_cristh5</a><br>
+            <a href="https://tiktok.com" target="_blank">TikTok: yulian5.9</a>
+        </div>
+
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo" required>
+            <textarea rows="4" placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+
+</body>
+</html>
